@@ -33,6 +33,4 @@ class MyCar:
             if car.rect.colliderect(self.rect):
                 sound.play()
                 self.game_status = 'game_over'
-                if self.fps >= 20:
-                    self.fps -= 10
-                    traffic_cars.empty()
+                traffic_cars.empty()
