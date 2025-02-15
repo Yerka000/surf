@@ -174,8 +174,8 @@ while running:
         button_start.draw(screen)
 
     # Display score and balance
-    font.render_to(screen, (20, 20), f'Score: {score}  Top Score: {top_score}', (255, 255, 255), (0, 0, 0))
-    font.render_to(screen, (20, 40), f'Balance: {my_car.balance}', (255, 255, 255), (0, 0, 0))
+    font.render_to(screen, (20, 20), f'Score: {score}  Top Score: {top_score}', (255, 255, 255))
+    font.render_to(screen, (20, 40), f'Balance: {my_car.balance}', (255, 255, 255))
 
     # Update screen
     pygame.display.flip()
