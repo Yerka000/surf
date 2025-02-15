@@ -170,7 +170,6 @@ while running:
 
     elif my_car.game_status == 'main_menu':
         screen.blit(menu_bg_image, (0, 0))
-        font.render_to(screen, (150, 100), "Surfey Race", (255, 255, 255))
         button_start.draw(screen)
 
     # Display score and balance
