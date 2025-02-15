@@ -8,10 +8,10 @@ class Road(pygame.sprite.Sprite):
         self.rect = self.image.get_rect()
         self.rect.center = position
 
-    def update(self):
-        self.rect.y += 3
-        self.remove()
-
     def remove(self):
         if self.rect.top > 800:
             self.kill()
+
+    def update(self):
+        self.rect.y += 3
+        self.remove()

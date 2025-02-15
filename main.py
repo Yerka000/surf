@@ -127,7 +127,7 @@ button_main_menu = Button(150, 300, 200, 50, "Main Menu",
 button = Button(150, 200, 200, 50, "Restart game",
                 36, (255, 255, 255), (0, 0, 255), (0, 0, 128), button_click_restart_action)
 
-button_start = Button(150, 200, 200, 50, "Start Game",
+button_start = Button(150, 240, 200, 50, "Start Game",
                       36, (255, 255, 255), (0, 0, 255), (0, 0, 128), button_click_start_action)
 
 # Initialize player car
