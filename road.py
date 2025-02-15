@@ -1,4 +1,4 @@
-import pygame.sprite
+import pygame
 
 
 class Road(pygame.sprite.Sprite):
@@ -10,3 +10,8 @@ class Road(pygame.sprite.Sprite):
 
     def update(self):
         self.rect.y += 3
+        self.remove()
+
+    def remove(self):
+        if self.rect.top > 800:
+            self.kill()

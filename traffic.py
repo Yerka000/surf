@@ -1,4 +1,4 @@
-import pygame.sprite
+import pygame
 
 
 class TrafficCar(pygame.sprite.Sprite):
@@ -13,7 +13,7 @@ class TrafficCar(pygame.sprite.Sprite):
     def remove(self):
         if self.rect.top > 800:
             self.kill()
-            self.my_car.balance +=5
+            self.my_car.balance += 5
 
     def update(self):
         self.rect.y += self.speed

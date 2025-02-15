@@ -1,4 +1,3 @@
-import pygame.key
 import pygame
 
 
