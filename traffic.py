@@ -1,5 +1,6 @@
 import pygame.sprite
 
+
 class TrafficCar(pygame.sprite.Sprite):
     def __init__(self, image, position, speed, my_car):
         super().__init__()
